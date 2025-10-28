@@ -1,0 +1,31 @@
+{
+  "name": "user_authentication_api",
+  "version": "1.0.0",
+  "description": "A simple Node.js API for user authentication using JWT and bcrypt.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "authentication",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "Umer Farooq",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
